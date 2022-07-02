@@ -125,7 +125,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="👤 Owner",
-                user_id = 1926090919,
+                user_id = 1410732132,
             ),
         ],
         [
@@ -137,17 +137,11 @@ home_keyboard_pm = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="📨 Support",
-                url=f"http://t.me/AwesomeSupport",
+                url=f"http://t.me/ASCDiscuss",
             ), 
             InlineKeyboardButton(
-                text="🛠️ GitHub",
-                url=f"http://github.com/VasuXD",
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="🎉 Awesome Bots",
-                url=f"http://t.me/LaylaBots",
+                text="📨 Channel",
+                url=f"http://t.me/autosultancapital",
             )
         ],
     ]
@@ -167,8 +161,8 @@ keyboard = InlineKeyboardMarkup(
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="🛠️ GitHub",
-                url=f"http://github.com/VasuXD",
+                text="📨 Channel",
+                url=f"http://t.me/autosultancapital",
             ), 
         ],
         [
@@ -176,7 +170,7 @@ keyboard = InlineKeyboardMarkup(
                 text="System Stats 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 📨", url="t.me/AwesomeSupport"),
+            InlineKeyboardButton(text="Support 📨", url="t.me/ASCDiscuss"),
         ],
     ]
 )
